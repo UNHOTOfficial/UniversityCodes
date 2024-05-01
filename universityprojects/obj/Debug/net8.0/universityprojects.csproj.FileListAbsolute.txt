@@ -1,0 +1,14 @@
+F:\Programming Projects\University\universityprojects\bin\Debug\net8.0\universityprojects.exe
+F:\Programming Projects\University\universityprojects\bin\Debug\net8.0\universityprojects.deps.json
+F:\Programming Projects\University\universityprojects\bin\Debug\net8.0\universityprojects.runtimeconfig.json
+F:\Programming Projects\University\universityprojects\bin\Debug\net8.0\universityprojects.dll
+F:\Programming Projects\University\universityprojects\bin\Debug\net8.0\universityprojects.pdb
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.AssemblyInfoInputs.cache
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.AssemblyInfo.cs
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.csproj.CoreCompileInputs.cache
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.dll
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\refint\universityprojects.dll
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.pdb
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.genruntimeconfig.cache
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\ref\universityprojects.dll
