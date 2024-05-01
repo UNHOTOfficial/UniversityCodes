@@ -55,7 +55,7 @@ public class SubtractBinary
         bool isNegative = decimalNumber < 0;
 
         // Convert the decimal number to binary
-        string binary = Convert.ToString(Math.Abs(decimalNumber), 2);
+        string binary = Convert.(Math.Abs(decimalNumber), 2);
 
         // If the binary number is negative, add a sign bit and flip the bits (1's complement)
         if (isNegative)
