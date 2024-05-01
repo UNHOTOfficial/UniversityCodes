@@ -1,7 +1,9 @@
+// problems
 public class MergeSort
 {
     public static void Sort(int[] array, int left, int right)
     {
+        // Check if the left index is less than the right index
         if (left < right)
         {
             // Find the middle point

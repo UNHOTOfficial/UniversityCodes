@@ -12,3 +12,4 @@ F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\refint\un
 F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.pdb
 F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.genruntimeconfig.cache
 F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\ref\universityprojects.dll
+F:\Programming Projects\University\universityprojects\obj\Debug\net8.0\universityprojects.sourcelink.json
