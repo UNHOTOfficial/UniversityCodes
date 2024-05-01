@@ -12,7 +12,6 @@
         Console.WriteLine("6. Two Big Number Multiplication");
         Console.WriteLine("7. Randomized Select");
         Console.WriteLine("8. Subtract Binary");
-        console.WriteLine("9. Dfa Minimizer");
 
 
         int selection = Convert.ToInt32(Console.ReadLine());
@@ -161,19 +160,6 @@
                 Console.WriteLine("Resulting binary number: " + result3);
                 break;
 
-            // DFA Minimizer
-            case 9:
-                Console.WriteLine("Enter the DFA as a dictionary:");
-                // You need to provide a way to input the DFA here. This could be through user input, or by reading from a file.
-                // For the sake of this example, let's assume you have a method `ReadDFA()` that reads a DFA from user input and returns it as a `Dictionary<string, Dictionary<string, string>>`.
-                Dictionary<string, Dictionary<string, string>> dfa = ReadDFA();
-                DFAMinimizer minimizer = new DFAMinimizer(dfa);
-                Dictionary<string, Dictionary<string, string>> minimizedDFA = minimizer.Minimize();
-                Console.WriteLine("Minimized DFA:");
-                // You need to provide a way to output the minimized DFA here. This could be to the console, or to a file.
-                // For the sake of this example, let's assume you have a method `PrintDFA(Dictionary<string, Dictionary<string, string>> dfa)` that prints a DFA to the console.
-                PrintDFA(minimizedDFA);
-                break;
 
             // default case
             default:
