@@ -17,7 +17,7 @@ public class SubtractBinary
         return binaryResult;
     }
 
-// utility method: The method is used by the main method to convert binary numbers to decimal
+    // utility method: The method is used by the main method to convert binary numbers to decimal
     public static int ConvertBinaryToDecimal(string binary)
     {
         // Check if the binary number is negative
@@ -41,21 +41,21 @@ public class SubtractBinary
         }
     }
 
-// utility method: The method is used by the ConvertBinaryToDecimal method to flip the bits of a binary number
+    // utility method: The method is used by the ConvertBinaryToDecimal method to flip the bits of a binary number
     public static string FlipBits(string binary)
     {
         // Flip the bits of the binary number
         return string.Concat(binary.Select(bit => bit == '0' ? '1' : '0'));
     }
 
-// utility method: The method is used by the main method to convert decimal numbers to binary
+    // utility method: The method is used by the main method to convert decimal numbers to binary
     public static string ConvertDecimalToBinary(int decimalNumber)
     {
         // Check if the decimal number is negative
         bool isNegative = decimalNumber < 0;
 
         // Convert the decimal number to binary
-        string binary = Convert.(Math.Abs(decimalNumber), 2);
+        string binary = Convert.ToString(Math.Abs(decimalNumber), 2);
 
         // If the binary number is negative, add a sign bit and flip the bits (1's complement)
         if (isNegative)
@@ -68,7 +68,7 @@ public class SubtractBinary
         }
     }
 
-// utility method: The method is used by the ConvertDecimalToBinary method to add one to a binary number
+    // utility method: The method is used by the ConvertDecimalToBinary method to add one to a binary number
     public static string AddOne(string binary)
     {
         // Initialize the carry to 1
