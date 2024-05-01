@@ -2,6 +2,7 @@
 {
     static void Main(string[] args)
     {
+        // print the menu
         Console.WriteLine("Select an algorithm:");
         Console.WriteLine("1. Insertion Sort");
         Console.WriteLine("2. Recursive Fibonacci");
@@ -10,11 +11,14 @@
         Console.WriteLine("5. Strassen");
         Console.WriteLine("6. Two Big Number Multiplication");
         Console.WriteLine("7. Randomized Select");
+        Console.WriteLine("8. Subtract Binary");
+
 
         int selection = Convert.ToInt32(Console.ReadLine());
 
         switch (selection)
         {
+            // Insertion Sort
             case 1:
                 Console.WriteLine("Enter a list of numbers separated by space:");
 
@@ -28,7 +32,7 @@
                 Console.WriteLine("Sorted array: " + string.Join(" ", array));
                 break;
 
-
+            // Recursive Fibonacci
             case 2:
                 Console.WriteLine("Enter a number for Fibonacci calculation:");
 
@@ -42,6 +46,7 @@
                 Console.WriteLine($"Fibonacci of {n}: {fiboResult}");
                 break;
 
+            // Binary Search
             case 3:
                 Console.WriteLine("Enter a sorted list of numbers separated by space:");
 
@@ -69,6 +74,7 @@
                 }
                 break;
 
+            // Merge Sort
             case 4:
                 Console.WriteLine("Enter a list of numbers separated by space:");
 
@@ -82,6 +88,8 @@
                 Console.WriteLine("Sorted array: " + string.Join(" ", array2));
                 break;
 
+
+            // Strassen
             case 5:
                 Console.WriteLine("Enter the size of the matrices (size):");
                 int size = Convert.ToInt32(Console.ReadLine());
@@ -125,6 +133,8 @@
                 }
                 break;
 
+
+            // Two Big Number Multiplication
             case 6:
                 Console.WriteLine("Enter the first big number:");
                 dynamic num1 = Console.ReadLine();
@@ -134,10 +144,23 @@
                 Console.WriteLine("Resulting big number: " + result1);
                 break;
 
+            // Randomized Select
             case 7:
-               // selection
+                // selection
                 break;
 
+            // Subtract Binary
+            case 8:
+                Console.WriteLine("Enter the first binary number:");
+                string binary1 = Console.ReadLine();
+                Console.WriteLine("Enter the second binary number:");
+                string binary2 = Console.ReadLine();
+                SubtractBinary subtractBinary = new(); // Instantiate an instance of the SubtractBinary class
+                string result3 = SubtractBinary.Subtract(binary1, binary2); // Call the Subtract method on the instance
+                Console.WriteLine("Resulting binary number: " + result3);
+                break;
+
+            // default case
             default:
                 Console.WriteLine("Invalid selection.");
                 break;
